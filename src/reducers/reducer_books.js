@@ -1,3 +1,4 @@
+// REDUX REDUCER WITH LIST OF BOOKS
 export default function() {
 	return [
 		{ title: 'Javascript: The Good Parts' },

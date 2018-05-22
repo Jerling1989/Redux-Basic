@@ -1,4 +1,4 @@
-// IMPORT REACT AND REDUX FUNCTIONS
+// IMPORT REACT AND REDUX METHODS
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
