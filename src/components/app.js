@@ -1,7 +1,9 @@
 // IMPORT REACT OBJECT AND METHODS
 import React, { Component } from 'react';
-// IMPORT CONTAINER
+// IMPORT CONTAINERS
 import BookList from '../containers/book_list';
+import BookDetail from '../containers/book_detail';
+
 
 // EXPORT MAIN APP COMPONENT
 export default class App extends Component {
@@ -10,6 +12,7 @@ export default class App extends Component {
     return (
       <div>
       	<BookList />
+      	<BookDetail />
       </div>
     );
   }
